@@ -6,7 +6,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 install_list = ["ipython","mplayer","fbi","vim","git","python-dev","python-pip","tree","lrzsz"]
 python_module_list = ["RPIO", "tornado"]
-auto_probe_list = ["spi-bcm2708", "i2c-bcm2708"]
+auto_probe_list = ["spi-bcm2708", "i2c-bcm2708", "ads7846"]
 
 def local(name):
 	return os.path.join(THIS_DIR, name)
