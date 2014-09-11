@@ -7,17 +7,19 @@ auto_update
 
 3.12.24_openRPi_2014-6-20
 
+<pre>
 (_openRPi_2014-6-20) Local version - append to kernel release  
 [*] Automatically append version information to the version string
 
-<M>   ADS7846/TSC2046/AD7873 and AD(S)7843 based touchscreens
+M   ADS7846/TSC2046/AD7873 and AD(S)7843 based touchscreens
 
-<M>   User mode SPI device driver support
+M   User mode SPI device driver support
 
-<M>   PCF857x, PCA{85,96}7x, and MAX732[89] I2C GPIO expanders
+M   PCF857x, PCA{85,96}7x, and MAX732[89] I2C GPIO expanders
 
-<*> Support for small TFT LCD display modules  --->  
-	<M> all
+* Support for small TFT LCD display modules  --->  
+	M all
+</pre>
 
 ## 模块开机自动加载
 
