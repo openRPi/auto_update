@@ -4,7 +4,7 @@ import os
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-install_list = ["ipython","mplayer","fbi","vim","git","python-dev","python-pip","tree","lrzsz"]
+install_list = ["ipython","mplayer","fbi","vim","git","python-dev","python-pip","tree","lrzsz","libncurses5-dev"]
 python_module_list = ["RPIO", "tornado"]
 auto_probe_list = ["spi-bcm2708", "i2c-bcm2708", "ads7846"]
 
